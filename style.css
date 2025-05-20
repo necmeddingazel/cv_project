@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: lightblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cont{
+position: relative;
+width: 100%;
+max-width: 950px;
+min-height: 700px;
+background: white;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+
+}
+
+  
+  .cont .left {
+    position: relative;
+    background-color: #003147;
+    padding: 40px;
+  }
+
+  .profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .profileText .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .profileText .image img{
+    position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    
+  }
+
+  .profileText h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+
+  }
+
+  .contactInfo{
+    margin-top: 25px;
+  }
+
+  .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 590;
+    letter-spacing: 1mm;
+    padding-bottom: 10px ;
+    
+  }
+
+  .contactInfo ul{
+
+    position: relative;
+
+  }
+
+  .contactInfo ul li{
+
+    position: relative;
+    list-style: none;
+    bottom: 7px 0;
+    cursor: pointer;
+
+
+  }
+
+  .littleText{
+    
+  
+  margin-left: 30px; 
+    
+  }
+
+  a {
+    display: inline-block;  
+    text-decoration: none;
+    color: gray;
+    
+  }
+
+
+  .contactInfo ul li .icon {
+
+    font-size: 15px;
+    color: #03a9f4;
+  }
+
+  .contactInfo ul li span{
+
+color: #fff;
+
+  }
+
+  .contactInfo.language .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+
+  }
+
+  .contactInfo.language .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+
+  }
+
+ 
+  
+  .cont .right {
+    background-color: #ffffff; 
+    position: relative;
+    padding: 40px;
+  }
+
+.about{
+  margin-bottom: 50px;
+
+}
+
+.about:last-child{
+
+  margin-bottom: 0;
+}
+
+.title2{
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+
+}
+
+p{
+  color: #333;
+}
+
+.hireSection {
+  background-color: #003147; /* Soft purple */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  color: white;
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Form input ve button stil */
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #003147; /* Yeşil buton */
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003147;
+}
